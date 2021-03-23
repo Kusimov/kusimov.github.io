@@ -254,6 +254,8 @@ chart: {
 });
 		</script>
 		
+		
+		<?php
 		require_once '/Classes/PHPExcel.php';
 		$excel = PHPExcel_IOFactory::load('/KIUM.xlsx');
 		
@@ -274,5 +276,6 @@ chart: {
 		}
 		echo '</table>';
 		}
+		?>
 	</body>
 </html>
