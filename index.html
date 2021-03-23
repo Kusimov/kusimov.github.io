@@ -259,7 +259,7 @@ chart: {
 		require_once '/Classes/PHPExcel.php';
 		$excel = PHPExcel_IOFactory::load('/KIUM.xlsx');
 		
-		Foreach($excel ->getWorksheetIterator() as $worksheet) {
+		Foreach($excel->getWorksheetIterator() as $worksheet) {
 		$lists[] = $worksheet->toArray();
 		}
 		
